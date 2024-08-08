@@ -10,6 +10,8 @@ import {
 import Data from '../../components/Data'
 
 function Tickets() {
+
+  
   return (
     <div>
       <header className="mt-[36px] flex items-center justify-between p-[30px]">
@@ -26,7 +28,7 @@ function Tickets() {
           <img src={navbarImg} alt="navbarImg" />
         </div>
       </header>
-      <div className="flex justify-between">
+      <div className="flex justify-between ">
         <h3 className='p-[32px] text-[#252733] text-[20px]'>All tickets</h3>
         <div className='flex justify-between items-center p-[32px] gap-5'>
           <div className="flex items-center gap-3">
@@ -45,7 +47,7 @@ function Tickets() {
         <h3>Date</h3>
         <h3>Priority</h3>
       </div>
-      
+      <Data/>
     </div>
   )
 }
